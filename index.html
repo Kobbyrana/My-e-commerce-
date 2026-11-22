@@ -1,4 +1,4 @@
-html = r'''<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -69,4 +69,4 @@ html = r'''<!DOCTYPE html>
 <div class="admincards"><div class="stat"><strong id="statProducts">0</strong><small>Products in catalogue</small></div><div class="stat"><strong id="statCities">0</strong><small>Delivery locations</small></div><div class="stat"><strong id="statOrders">0</strong><small>Demo orders this session</small></div></div>
 <div class="adminbox"><h3>Manage delivery locations</h3><p class="muted">Mankessim is the initial launch location. Add other cities or towns when you are ready to serve them.</p><div class="adminform"><input id="newCity" placeholder="New city or town"><input id="newFee" type="number" min="0" step=".01" placeholder="Delivery fee (GH₵)"><button class="primary" onclick="addCity()">Add location</button></div><div id="cityList" style="margin-top:12px"></div></div>
 <div class="adminbox"><h3>Add a product</h3><div class="adminform"><input id="newProduct" placeholder="Product name"><input id="newPrice" type="number" min="0" step=".01" placeholder="Price (GH₵)"><select id="newCategory"><option>Groceries</option><option>Electronics</option><option>Fashion</option><option>Beauty</option><option>Home & Kitchen</option><option>Phones</option></select><button class="primary" onclick="addProduct()">Add product</button></div><p class="tiny">This preview saves changes in this browser only. A production admin system needs secure staff accounts, a server database, audit logs and role permissions.</p></div>
-<div class="
+<div class="adminbox"><h3>Session data</h3><p cla
